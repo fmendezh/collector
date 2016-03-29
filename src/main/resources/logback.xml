@@ -27,9 +27,9 @@
   </appender>
 
   <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
-    <file>logs/occurrence-ws.log</file>
+    <file>logs/collector.log</file>
     <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-      <fileNamePattern>logs/occurrence-ws.%d{yyyy-MM-dd}.log.gz</fileNamePattern>
+      <fileNamePattern>logs/collector.%d{yyyy-MM-dd}.log.gz</fileNamePattern>
       <maxHistory>14</maxHistory>
     </rollingPolicy>
     <layout>
